@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/removeSubject"
+        android:visible="false"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom"
+        android:title="@string/delete_subject"/>
+    <item
+        android:title="@string/edityearbranch"
+        android:id="@+id/editBranchYearPreference"/>
+    <item
+        android:id="@+id/profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/prof_pic"
+        android:title="@string/account"/>
+    <item
+        android:title="@string/weekRoutine"
+        android:id="@+id/fTab"/>
+    <item
+        android:title="ac"
+        android:id="@+id/ac"/>
+    <item
+        android:id="@+id/signout"
+        android:title="@string/signout"/>
+</menu>

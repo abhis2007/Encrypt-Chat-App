@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/removeChat"
+        android:visible="false"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom"
+        android:title="@string/delete_subject"/>
+    <item
+        android:icon="@drawable/prof_pic"
+        app:showAsAction="ifRoom"
+        android:id="@+id/chatMenuAccount"
+        android:title="@string/account"/>
+    <item
+        android:id="@+id/attendanceList"
+        android:title="@string/attendanceList"/>
+    <item
+        android:id="@+id/takeAttendance"
+        android:title="@string/takeAttendance"/>
+    <item
+        android:id="@+id/bgColor"
+        android:title="@string/backgroundColor"/>
+    <item
+        android:id="@+id/chatMenuLogout"
+        android:title="@string/signout"/>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "771776500449",
+    "firebase_url": "https://routineapp-e0c90.firebaseio.com",
+    "project_id": "routineapp-e0c90",
+    "storage_bucket": "routineapp-e0c90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771776500449:android:8caa7bc06c6c2d61985da0",
+        "android_client_info": {
+          "package_name": "com.example.routineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771776500449-22snfkcq536b39qbskcgd2ohc58cegs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZcLsceh1PV-_02VTIW6HpBwCUtxn0pYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771776500449-22snfkcq536b39qbskcgd2ohc58cegs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

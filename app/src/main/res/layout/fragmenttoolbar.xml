@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/fragmentToolbar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40sp"
+    android:background="@color/colorPrimaryDark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:title="@string/app_name"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/serachQuery"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:minWidth="150sp"
+            android:text="@string/nameHint"
+            />
+        <ImageView
+            android:id="@+id/fireSearch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search"/>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

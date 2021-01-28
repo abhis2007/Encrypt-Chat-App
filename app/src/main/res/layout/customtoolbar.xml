@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/customToolBarSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:minHeight="50sp"
+            android:text="@string/subjectHint"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_gravity="top">
+            <TextView
+                android:id="@+id/customToolBarTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:text="@string/teacherHint" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2sp"
+                android:layout_marginLeft="5sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/time"
+                android:contentDescription="@string/timeHint"
+                android:layout_marginEnd="2sp"
+                android:layout_marginStart="5sp" />
+            <TextView
+                android:id="@+id/customToolBarTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:text="@string/timeHint"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

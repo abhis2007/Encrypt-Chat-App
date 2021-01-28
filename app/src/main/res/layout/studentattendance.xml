@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_number"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="@string/nameHint"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:paddingLeft="3dp"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+    <TextView
+        android:id="@+id/attendanceStatus"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Ab/Pr"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:paddingLeft="3dp"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lists">
+        <item>SunDay</item>
+        <item>MonDay</item>
+        <item>TuesDay</item>
+        <item>WedNesDay</item>
+        <item>ThursDay</item>
+        <item>FriDay</item>
+        <item>SaturDay</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".attendance">
+    <TextView
+        android:id="@+id/attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:text="@string/attendance_list"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/attendance"
+        android:paddingLeft="2dp"
+        android:textSize="20sp"
+        android:hint="@string/full_name"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:paddingStart="2dp"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="@string/nameHint"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:textSize="20sp"
+        android:hint="@string/roll_number"
+        android:paddingStart="2dp"
+        android:layout_marginStart="5dp"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="@string/roll_number"
+        android:inputType="textMultiLine" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/roll"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:id="@+id/headRoll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/roll"
+            android:textSize="20sp"
+            android:paddingLeft="4dp"
+            android:layout_weight="1"
+            android:paddingStart="2dp"
+            android:textColor="#000000"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/headName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nameHint"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/subjectList"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:paddingLeft="4dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="4dp"
+        tools:ignore="RtlSymmetry" />
+</RelativeLayout>

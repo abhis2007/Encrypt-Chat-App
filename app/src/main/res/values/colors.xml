@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00966C</color>
+    <color name="colorPrimaryDark">#00966C</color>
+    <color name="lightGreen">#ABDCCE</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="link">#03A9F4</color>
+    <color name="absent">#F44336</color>
+    <color name="present">#4CAF50</color>
+    <color name="black">#000000</color>
+    <color name="sender">#8BDBFF</color>
+    <color name="receiver">#C2C5C6</color>
+</resources>

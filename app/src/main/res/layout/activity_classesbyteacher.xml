@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="2dp"
+    android:orientation="horizontal"
+    tools:context=".classesbyteacher"
+    android:paddingStart="2dp"
+    tools:ignore="RtlSymmetry">
+    <ListView
+        android:id="@+id/rootListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
